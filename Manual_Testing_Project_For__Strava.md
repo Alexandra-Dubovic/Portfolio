@@ -12,7 +12,7 @@ Modules in scope of this project are:
 <ul>
   <li>Training module</li> 
   <li>Upload module</li>
-  <li>Support module/li>
+  <li>Support module</li>
 </ul>  
 
 The below stories **(daca aveti mai multe scrieti stories**) were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
