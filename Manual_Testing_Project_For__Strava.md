@@ -49,21 +49,62 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+<dl>
+  <dd>-	Testing environment is up and running smooth</dd>
+  <dd>-	Business requirements are completed by the analysis team and are delivered to the appropriate testing team for evaluation</dd>
+  <dd>-	Potential project risks are detected and mitigated</dd>
+  <dd>-	Roles and responsibilities are allocated/dd>
+  <dd>-	Test plan should be finalized before entering the next phase of testing</dd>
+  <dd>-	Define the objectives of testing and the accepted level of quality</dd> 
+</dl>
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+<dl>
+  <dd>-	90% or more of the tests are passed</dd>
+  <dd>-	No critical issues have status open</dd>
+  <dd>-	All detected errors have been reported and closed</dd>
+  <dd>-	The budget was reached</dd>
+  <dd>-	The deadline was reached</dd>
+  <dd>-	The objectives were fulfilled</dd> 
+  <dd>-	The product usage documentation has been finalized with the scenarios evaluated
+        during the testing phase</dd> 
+  <dd>-	Test completion report has been created and sent to the stakeholders</dd>
+  <dd>- Product risks have been identified and mitigated</dd>
+</dl>
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Strava application is available both for web and mobile users. The objective of this project is to focus on improving the quality of the web application. The version under testing is V333.10 released in November 13, 2023.
+
+Strava provides users with a large range of functionalities (tracking, competitions, measuring etc.). For this project the functionalities in scope of testing process are:
+
+<dl>
+  <dt>Training module</dt>
+  <dd>- Training calendar</dd>
+  <dd>- My activities</dd>
+  <dt>Upload</dt>
+  <dd>- Upload activity</dd>
+  <dd>- Add manual entry</dd>
+  <dd>- Create a route</dd>
+  <dd>- Create a post</dd>
+  <dt>Help</dt>
+  <dd>- Strava support</dd>
+</dl>
+
+As the application is live testing will be performed at  a system testing level. During the testing process will be performed functional testing and some types of non- functional testing (usability testing), positive and negative testing and also if needed retesting and regression testing will be performed.
+
+Based on requirement analysis some additional testing  types and techniques may be applied.
+
 
 <h5>Tests not in scope: </h5>
-
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+<dl>
+  <dd>-	Non-functional testing like stress, performance is beyond scope of this project</dd>
+  <dd>-	Only web application will be tested for this project</dd>
+  <dd>-	All the functionalities except the ones mentioned in chapter 1.1.4 are out of scope for this project and will be tested with next iterations.</dd>
+</dl>
 
 <h4>1.1.5 Risks detected</h4>
 
