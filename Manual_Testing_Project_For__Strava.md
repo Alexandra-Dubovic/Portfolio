@@ -18,7 +18,11 @@ Modules in scope of this project are:
 The below stories were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
 [PTAD-2.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550500/PTAD-2.pdf)
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+[PTAD-3.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550505/PTAD-3.pdf)
+[PTAD-10.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550515/PTAD-10.pdf)
+[PTAD-14.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550517/PTAD-14.pdf)
+[PTAD-29.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550516/PTAD-29.pdf)
+
 
 Here you can find the release that was created for this project:
 
