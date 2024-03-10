@@ -15,8 +15,9 @@ Modules in scope of this project are:
   <li>Support module</li>
 </ul>  
 
-The below stories **(daca aveti mai multe scrieti stories**) were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
+[PTAD-2.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550500/PTAD-2.pdf)
 **inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
 
 Here you can find the release that was created for this project:
