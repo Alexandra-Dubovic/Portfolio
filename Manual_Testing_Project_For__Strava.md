@@ -8,7 +8,14 @@ Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+Modules in scope of this project are:
+<ul>
+  <li>Training module</li> 
+  <li>Upload module</li>
+  <li>Support module/li>
+</ul>  
+
+The below stories **(daca aveti mai multe scrieti stories**) were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
 **inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
 
