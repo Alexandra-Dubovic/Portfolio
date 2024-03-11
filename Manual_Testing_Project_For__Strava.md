@@ -83,15 +83,15 @@ Strava provides users with a large range of functionalities (tracking, competiti
 
 <dl>
   <dt>Training module</dt>
-  <dd>- Training calendar</dd>
-  <dd>- My activities</dd>
+  <li>Training calendar</li>
+  <li>My activities</li>
   <dt>Upload</dt>
-  <dd>- Upload activity</dd>
-  <dd>- Add manual entry</dd>
-  <dd>- Create a route</dd>
-  <dd>- Create a post</dd>
+  <li>Upload activity</li>
+  <li>Add manual entry</li>
+  <li>Create a route</li>
+  <li>Create a post</li>
   <dt>Help</dt>
-  <dd>- Strava support</dd>
+  <li>Strava support</li>
 </dl>
 
 As the application is live testing will be performed at  a system testing level. During the testing process will be performed functional testing and some types of non- functional testing (usability testing), positive and negative testing and also if needed retesting and regression testing will be performed.
@@ -101,9 +101,9 @@ Based on requirement analysis some additional testing  types and techniques may 
 
 <h5>Tests not in scope: </h5>
 <dl>
-  <dd>-	Non-functional testing like stress, performance is beyond scope of this project</dd>
-  <dd>-	Only web application will be tested for this project</dd>
-  <dd>-	All the functionalities except the ones mentioned in chapter 1.1.4 are out of scope for this project and will be tested with next iterations.</dd>
+  <li>Non-functional testing like stress, performance is beyond scope of this project</li>
+  <li>Only web application will be tested for this project</li>
+  <li>All the functionalities except the ones mentioned in chapter 1.1.4 are out of scope for this project and will be tested with next iterations.</li>
 </dl>
 
 <h4>1.1.5 Risks detected</h4>
@@ -120,9 +120,12 @@ Based on requirement analysis some additional testing  types and techniques may 
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>1.2 Test Monitoring and Control</h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+We will evaluate the test status reports and monitor them all throughout the testing process in order to ensure a smooth testing and team collaboration and in order to make sure that new risks are identified in time and managed accordingly
+
+In case new risks will appear they will be mitigated or a contingency plan will be set in place to make sure that the negative effects will not stop us from fulfilling the testing objectives that were defined in the planning phase
+
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
