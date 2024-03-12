@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://itfclasses.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/PTAD-9">Functionalities in scope from Upload module</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/PTAD-9">PTAD-9</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [PTAD-29]&nbsp;<a href="https://itfclasses.atlassian.net/browse/PTAD-29">User can create a new post </a>
+            <span class="subText">
+               Created: 11/Jan/24                   &nbsp;Updated: 11/Jan/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10293">Proiect_TMTA17_Alexandra_Dubovic</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Strava App V333.10"
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10293%20AND%20%22fixVersion%22%3D10231%20ORDER%20BY%20priority%20ASC"
+            >Strava App V333.10</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/PTAD-9">Functionalities in scope from Upload module</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13863-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    8213639324429 &nbsp;&nbsp;&nbsp;
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Inbox__6__-_ashley_strava_com_-_Strava_Mail.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    shareios.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-30">
+                     PTAD-30                 </a>
+            </td>
+            <td>
+                Create a new post
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-31">
+                     PTAD-31                 </a>
+            </td>
+            <td>
+                Check the GUI of  file upload feature...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-32">
+                     PTAD-32                 </a>
+            </td>
+            <td>
+                File upload failed when creating a ne...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-33">
+                     PTAD-33                 </a>
+            </td>
+            <td>
+                Missing infotip about required file s...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-34">
+                     PTAD-34                 </a>
+            </td>
+            <td>
+                Inconsistent GUI - buttons have diffe...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-9">
+                     PTAD-9                 </a>
+            </td>
+            <td>
+                Functionalities in scope from Upload ...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-13863-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://itfclasses.atlassian.net/browse/PTAD-9">
+        Functionalities in scope from Upload module
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="Poststories%2Cquestions%2Cgeartips%2Cracereports%2Crecommendations%2Cworkouts%E2%80%93allkindsofcontentinadditiontoactivityuploadsinyourStravafeed"></a>Post stories, questions, gear tips, race reports, recommendations, workouts – all kinds of content in addition to activity uploads in your Strava feed</h3>
+
+<ul>
+	<li><a href="https://support.strava.com/hc/en-us/articles/115001192064-Athlete-Posts#howitworks" class="external-link" rel="nofollow noreferrer">How It Works</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/115001192064-Athlete-Posts#reporting" class="external-link" rel="nofollow noreferrer">Reporting a Post</a></li>
+</ul>
+
+
+
+
+<h3><a name="HowItWorks"></a>How It Works</h3>
+
+<p>Share activities, events, and routes directly to your followers as a post by tapping the share icon and selecting the club you wish to post to. On the next screen, you’ll have the option to add a title and description before publishing.</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>iOS share icon</b></td>
+<td class='confluenceTd'><b>Android share icon</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10605" height="53" width="38" style="border: 0px solid black" /></span></td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10606" height="110" width="103" style="border: 0px solid black" /></span></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<ol>
+	<li>Select the plus sign icon from either the website or mobile app to reveal the option to create a new post.
+	<ul>
+		<li>On the next screen, you can write your post and choose a title if you wish. To add a title from the mobile app, select the icon in the lower-right (highlighted below.)</li>
+		<li>Upload photos from your PC by dragging the file into the photo field or selecting <b>click to upload</b>. Add photos from your phone's camera roll by selecting the icon in the lower left.
+		<ol>
+			<li>You can add captions to your images and choose a "highlight" photo that will represent your post in your follower's feeds.</li>
+		</ol>
+		</li>
+		<li>The <b>Publish</b> button will become available once you've completed the required text field. </li>
+	</ul>
+	</li>
+</ol>
+
+
+<p><span class="error">Unable to embed resource: 8213639324429 of type application/octet-stream</span></p>
+
+<p>To edit or delete previously created posts, look for the <b>Posts</b> tab on your profile page on both the Strava website and mobile app. Select the post you wish to edit or delete and then select the three dot icon.</p>
+
+
+
+<h3><a name="ReportingaPost"></a>Reporting a Post</h3>
+
+<p>Open the post you wish to report and select the three-dot icon in the upper right-hand corner to reveal the report option. Confirm that you would like to report the post and choose your reason for reporting it.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [PTAD-14]&nbsp;<a href="https://itfclasses.atlassian.net/browse/PTAD-14">Use the Strava Support module</a>
+            <span class="subText">
+               Created: 02/Jan/24                   &nbsp;Updated: 07/Jan/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10293">Proiect_TMTA17_Alexandra_Dubovic</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Strava App V333.10"
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10293%20AND%20%22fixVersion%22%3D10231%20ORDER%20BY%20priority%20ASC"
+            >Strava App V333.10</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13621-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240102-083251.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-15">
+                     PTAD-15                 </a>
+            </td>
+            <td>
+                Change the language of displayed resu...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-24">
+                     PTAD-24                 </a>
+            </td>
+            <td>
+                Change the language of displayed resu...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-27">
+                     PTAD-27                 </a>
+            </td>
+            <td>
+                When changing the language section, t...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-13">
+                     PTAD-13                 </a>
+            </td>
+            <td>
+                Strava support module functionalities
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>To access the Strava support users may navigate to the footer menu. </p>
+
+<p>Help&gt; Strava Support. </p>
+
+<p>Support module includes 4 major categories. Users may select the domain they want to know more about:</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10573" height="203" width="1064" style="border: 0px solid black" /></span></p>
+
+<p>Related articles will be displayed in below section.</p>
+
+<p>Search bar is available for searching based on key words.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/PTAD-9">Functionalities in scope from Upload module</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/PTAD-9">PTAD-9</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [PTAD-10]&nbsp;<a href="https://itfclasses.atlassian.net/browse/PTAD-10">Add a new activity </a>
+            <span class="subText">
+               Created: 02/Jan/24                   &nbsp;Updated: 08/Jan/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10293">Proiect_TMTA17_Alexandra_Dubovic</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Strava App V333.10"
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10293%20AND%20%22fixVersion%22%3D10231%20ORDER%20BY%20priority%20ASC"
+            >Strava App V333.10</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/PTAD-9">Functionalities in scope from Upload module</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13617-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-11">
+                     PTAD-11                 </a>
+            </td>
+            <td>
+                Add an activity manually
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-12">
+                     PTAD-12                 </a>
+            </td>
+            <td>
+                Create a route for new activity for n...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-22">
+                     PTAD-22                 </a>
+            </td>
+            <td>
+                Add an activity manually with all cor...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-23">
+                     PTAD-23                 </a>
+            </td>
+            <td>
+                Non subscribed user should not be abl...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-25">
+                     PTAD-25                 </a>
+            </td>
+            <td>
+                Correctly display a pop-up that subsc...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-26">
+                     PTAD-26                 </a>
+            </td>
+            <td>
+                Correctly display a pop-up that subsc...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-28">
+                     PTAD-28                 </a>
+            </td>
+            <td>
+                Page is blocked when &quot;subscription re...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-9">
+                     PTAD-9                 </a>
+            </td>
+            <td>
+                Functionalities in scope from Upload ...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-13617-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://itfclasses.atlassian.net/browse/PTAD-9">
+        Functionalities in scope from Upload module
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Strava works with many unique devices and applications and turns every iPhone and Android into a sophisticated running and cycling computer (and we work with your GPS watches and head units, too). Start Strava before an activity, and you can track your favorite performance stats and, afterward, dive deep into your data. You can upload your activities to Strava using any of the following methods.</p>
+
+<ul>
+	<li><a href="https://support.strava.com/hc/en-us/articles/223297187-How-to-get-your-Activities-to-Strava#app" class="external-link" rel="nofollow noreferrer">Instantly upload from the Strava iPhone or Android app</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/223297187-How-to-get-your-Activities-to-Strava#devices" class="external-link" rel="nofollow noreferrer">Upload from a GPS device</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/223297187-How-to-get-your-Activities-to-Strava#fitnesssites" class="external-link" rel="nofollow noreferrer">Sync data from other fitness sites to Strava</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/223297187-How-to-get-your-Activities-to-Strava#byfile" class="external-link" rel="nofollow noreferrer">Upload a file from your computer</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/223297187-How-to-get-your-Activities-to-Strava#manualentry" class="external-link" rel="nofollow noreferrer">Add an activity manually</a></li>
+</ul>
+
+
+
+
+<h3><a name="RecordGPSbasedactivitieswiththeStravaappforiOSorAndroid"></a>Record GPS-based activities with the Strava app for iOS or Android</h3>
+
+<p>Athletes can download Strava on their <a href="http://www.strava.com/iphone" class="external-link" rel="nofollow noreferrer"><ins>iPhone</ins></a> or <a href="http://www.strava.com/android" class="external-link" rel="nofollow noreferrer"><ins>Android</ins></a>[ |http://www.strava.com/android]to <a href="https://support.strava.com/hc/en-us/articles/216917397-Recording-an-Activity" class="external-link" rel="nofollow noreferrer"><ins>record and sync their activities</ins></a>. If you're having trouble uploading an activity recorded with the Strava app, you can learn more about how to troubleshoot uploads for both <a href="https://support.strava.com/hc/en-us/articles/216919037-Troubleshooting-Syncing" class="external-link" rel="nofollow noreferrer"><ins>here.</ins></a></p>
+
+<h3><a name="SyncfromStravaSupportedSmartWatchesandWearables"></a>Sync from Strava-Supported Smart Watches and Wearables</h3>
+
+<h3><a name="SyncingthroughDeviceSoftware"></a>Syncing through Device Software</h3>
+
+<p>Most popular services can upload data to Strava through syncing software built by the manufacturer. For information on your device or ways to troubleshoot syncing, please choose from the list below.</p>
+
+<ul>
+	<li><a href="https://support.strava.com/hc/articles/115001766144" class="external-link" rel="nofollow noreferrer">Amazfit</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/218958787" class="external-link" rel="nofollow noreferrer">Bkool</a></li>
+	<li><a href="https://support.strava.com/hc/articles/222167928" class="external-link" rel="nofollow noreferrer">Bryton</a></li>
+	<li>Casio</li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216918107" class="external-link" rel="nofollow noreferrer">CATEYE</a></li>
+	<li><a href="https://support.strava.com/hc/articles/360007816051-COROS-and-Strava" class="external-link" rel="nofollow noreferrer">COROS</a></li>
+	<li>CycleOps: Joule</li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216918087-Syncing-between-Strava-and-Fitbit" class="external-link" rel="nofollow noreferrer">Fitbit</a></li>
+	<li><a href="https://fulgaz.com/" class="external-link" rel="nofollow noreferrer">FulGaz</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216918057" class="external-link" rel="nofollow noreferrer">Garmin</a></li>
+</ul>
+
+
+<h3><a name="UploadingorsyncingfromotherfitnesssitestoStrava"></a>Uploading or syncing from other fitness sites to Strava</h3>
+
+<p>If your fitness site is not listed below, <a href="https://www.strava.com/apps" class="external-link" rel="nofollow noreferrer"><ins>check here</ins></a> to see if a direct integration exists.</p>
+
+<ul>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216918057-Garmin-and-Strava" class="external-link" rel="nofollow noreferrer">Garmin Connect</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216917757-Moving-your-activity-history-from-MapMyRun-to-Strava" class="external-link" rel="nofollow noreferrer">MapMyRun</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216917767-Moving-your-activity-history-from-MapMyRide-to-Strava" class="external-link" rel="nofollow noreferrer">MapMyRide</a></li>
+	<li><a href="https://support.strava.com/hc/en-us/articles/216917737-Moving-your-activity-history-from-Runkeeper-to-Strava" class="external-link" rel="nofollow noreferrer">Runkeeper</a></li>
+</ul>
+
+
+
+
+<h3><a name="Uploadafilefromyourcomputer"></a>Upload a file from your computer</h3>
+
+<p>You might want to use the file uploader if you have rides on your computer that are no longer on your device, or you have rides on <a href="https://support.strava.com/hc/en-us/articles/216917807-Exporting-Files-from-Garmin-Connect" class="external-link" rel="nofollow noreferrer"><ins>Garmin Connect</ins> </a>or another site that you would like to export and upload to Strava. You can upload files directly to Strava via our file uploader, found here: <a href="http://www.strava.com/upload/select" class="external-link" rel="nofollow noreferrer"><ins>http://www.strava.com/upload/select</ins></a>. You can upload the following file types as long as the file is 25MB or smaller and contains workout data:</p>
+
+<ul>
+	<li>GPX</li>
+	<li>TCX</li>
+	<li>FIT</li>
+</ul>
+
+
+
+
+<h3><a name="Addanactivitymanually"></a>Add an activity manually</h3>
+
+<p>If you want to upload an activity to Strava that wasn't recorded with a GPS or other device, you can create a manual upload. More information on uploading manual activities can be found <a href="https://support.strava.com/hc/en-us/articles/216917857-Uploading-Manual-Activities" class="external-link" rel="nofollow noreferrer"><ins>here</ins></a><ins>.</ins></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/PTAD-1">Includes all functionalities in scope from Training module</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/PTAD-1">PTAD-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [PTAD-3]&nbsp;<a href="https://itfclasses.atlassian.net/browse/PTAD-3">Viewing Your Activity History on Strava</a>
+            <span class="subText">
+               Created: 01/Jan/24                   &nbsp;Updated: 06/Jan/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10293">Proiect_TMTA17_Alexandra_Dubovic</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Strava App V333.10"
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10293%20AND%20%22fixVersion%22%3D10231%20ORDER%20BY%20priority%20ASC"
+            >Strava App V333.10</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/PTAD-1">Includes all functionalities in scope from Training module</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13609-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    13801061253773 &nbsp;&nbsp;&nbsp;
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    19718236832269 &nbsp;&nbsp;&nbsp;
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    19718236838413 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-7">
+                     PTAD-7                 </a>
+            </td>
+            <td>
+                Search and display an activity record...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-8">
+                     PTAD-8                 </a>
+            </td>
+            <td>
+                List only private activities from My ...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-20">
+                     PTAD-20                 </a>
+            </td>
+            <td>
+                Search and display an activity record...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-21">
+                     PTAD-21                 </a>
+            </td>
+            <td>
+                List only private activities from My ...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-1">
+                     PTAD-1                 </a>
+            </td>
+            <td>
+                Includes all functionalities in scope...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-13609-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-12" href="https://itfclasses.atlassian.net/browse/PTAD-1">
+        Includes all functionalities in scope from Training module
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="ActivitySearch"></a>Activity Search</h3>
+
+<p>You can search your past activities from either the Strava mobile app or the website. </p>
+
+<ul>
+	<li>On the Strava website, hover over the <b>Training</b> tab at the top of any Strava page, then select <b>My Activities</b> from the drop-down menu.
+	<ul>
+		<li>Search by keyword or sport type, and sort your results by activity details. Choosing a certain sport type will reveal additional fields to help you filter your search results.</li>
+		<li>Clicking the name of your activity will take you to that activity page.</li>
+		<li>You have the option to delete, edit, and share activities on the left-hand side.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><span class="error">Unable to embed resource: 13801061253773 of type application/octet-stream</span></p>
+
+<h3><a name="ActivityFeed"></a>Activity Feed</h3>
+
+<p>To view your activities as a subset of your Activity Feed on your Dashboard page, select Your Activities from the drop-down menu at the top of the page.</p>
+
+<p><span class="error">Unable to embed resource: 19718236832269 of type application/octet-stream</span></p>
+
+<h3><a name="MyProfile"></a>My Profile</h3>
+
+<p>You can also view your entire activity history on your Profile page. Near the middle of the page, you will see a display that looks like a bar graph, with each bar representing a single week (Monday to Sunday) of activities.</p>
+
+<ul>
+	<li>You can select what variable - time, distance, or elevation gain - is reflected on the Y-Axis of the graph or change the display so that each bar represents a month instead of a week.</li>
+	<li>Clicking on a bar will load the activities for that time period in a mini-feed below the graph and will show the total distance, time, and elevation gain for that period just above it.</li>
+	<li>The graph will only display a year of data at a time. You can select a year by clicking the drop-down menu above the graph.</li>
+</ul>
+
+
+<p><span class="error">Unable to embed resource: 19718236838413 of type application/octet-stream</span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/PTAD-1">Includes all functionalities in scope from Training module</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/PTAD-1">PTAD-1</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [PTAD-2]&nbsp;<a href="https://itfclasses.atlassian.net/browse/PTAD-2">Visualize your training info and stat on a calendar </a>
+            <span class="subText">
+               Created: 01/Jan/24                   &nbsp;Updated: 10/Mar/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10293">Proiect_TMTA17_Alexandra_Dubovic</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Strava App V333.10"
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10293%20AND%20%22fixVersion%22%3D10231%20ORDER%20BY%20priority%20ASC"
+            >Strava App V333.10</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/PTAD-1">Includes all functionalities in scope from Training module</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13608-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-4">
+                     PTAD-4                 </a>
+            </td>
+            <td>
+                Change the display to reflect the tot...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-5">
+                     PTAD-5                 </a>
+            </td>
+            <td>
+                Change the display to reflect the per...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-6">
+                     PTAD-6                 </a>
+            </td>
+            <td>
+                Change the display to reflect the amo...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-17">
+                     PTAD-17                 </a>
+            </td>
+            <td>
+                User can change the display to reflec...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-18">
+                     PTAD-18                 </a>
+            </td>
+            <td>
+                User can change the display to reflec...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-19">
+                     PTAD-19                 </a>
+            </td>
+            <td>
+                User can change the display to reflec...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/PTAD-1">
+                     PTAD-1                 </a>
+            </td>
+            <td>
+                Includes all functionalities in scope...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-13608-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-12" href="https://itfclasses.atlassian.net/browse/PTAD-1">
+        Includes all functionalities in scope from Training module
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>You can also visualize your training on a calendar by viewing your <a href="http://www.strava.com/athlete/calendar" class="external-link" rel="nofollow noreferrer"><ins>Training Calendar</ins></a>. Click the Training tab at the top of any Strava page.</p>
+
+<ul>
+	<li>You will see a full year of activities. Use the arrows next to the displayed year to move between years.</li>
+	<li>Change the display to reflect the time, distance, and number of activities or PRs. Hovering your cursor over a bar in the upper bar-graph display will give you information about that week's activities, given the display parameter you have selected. </li>
+	<li>Click on a month to drill further into that month's activities.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Tue Mar 12 19:09:05 UTC 2024 by IT Factory using Jira 1001.0.0-SNAPSHOT#100247-rev:04db334ed7ae06aee45dd169aa86fc8059e1094f.
+
+</body>
+</html>
