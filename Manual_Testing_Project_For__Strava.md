@@ -15,7 +15,7 @@ Modules in scope of this project are:
   <li>Support module</li>
 </ul>  
 
-Here are the [Jira Stories Strava Project](https://github.com/Alexandra-Dubovic/Portfolio/files/14817229/Jira.Stories.Strava.Project.pdf) created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
+Here are the [Stories for Strava Project](https://github.com/Alexandra-Dubovic/Portfolio/files/14817229/Jira.Stories.Strava.Project.pdf) created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
 Also you can find the release that was created for this project:
 
