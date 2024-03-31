@@ -28,7 +28,7 @@ The test process was performed based on the standard test process as described b
 
 <h3>1.1 Test planning</h3>
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+The Test Plan is designed to describe all details of testing for all the modules from the Strava application.
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Strava V333.10 test plan.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550605/Strava.V333.10.test.plan.pdf)
 
