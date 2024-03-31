@@ -17,11 +17,8 @@ Modules in scope of this project are:
 
 The below stories were created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
-[PTAD-2.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550500/PTAD-2.pdf)
-[PTAD-3.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550505/PTAD-3.pdf)
-[PTAD-10.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550515/PTAD-10.pdf)
-[PTAD-14.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550517/PTAD-14.pdf)
-[PTAD-29.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550516/PTAD-29.pdf)
+[Jira Stories Strava Project.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14817229/Jira.Stories.Strava.Project.pdf)
+
 
 Here you can find the release that was created for this project:
 
