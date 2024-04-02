@@ -15,7 +15,7 @@ Modules in scope of this project are:
   <li>Support module</li>
 </ul>  
 
-Here are the [Stories for Strava Project](https://github.com/Alexandra-Dubovic/Portfolio/files/14817229/Jira.Stories.Strava.Project.pdf) created in Jira and describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
+Here are the [Stories for Strava Project](https://github.com/Alexandra-Dubovic/Portfolio/files/14817229/Jira.Stories.Strava.Project.pdf) created in Jira that describe the functional specifications of the modules in scope of this project, for which the final project is performed upon.
 
 Also you can find the release that was created for this project:
 
@@ -102,13 +102,26 @@ Based on requirement analysis some additional testing  types and techniques may 
 
 <h4>1.1.5 Risks detected</h4>
 
+During the planning stage of the testing process below risks were identified and mitigated:
+
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+<ul>
+<li> The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application </li>
+<li> Not enough time has been allocated in order to properly test and cover all the functionalities in scope</li>
+<li> All that the data that is going to be used will have to be created explicitly in the scope of testing, which will cut off from the time allocated for testing, generating a risk of not
+reaching the deadline</li>
+</ul>
 
-<h5> Product risks: </h5>
+Duirng the test closure stage below risks were identified:
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+<h5> Product risks: </h5> 
+
+<ul>
+<li> All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience </li>
+<li> Complex features may affect multiple areas of the existing product making it less user friendly </li>
+</ul>
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -122,15 +135,17 @@ In case new risks will appear they will be mitigated or a contingency plan will 
 
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. 
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+![Test conditions](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/b12f1709-92a6-460e-b030-6647a1d8f8a4)
+
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [Test cases.xlsx](https://github.com/Alexandra-Dubovic/Portfolio/files/14842258/Test.cases.xlsx)
+
 
 <h3>1.5 Test Implementation</h3>
 
