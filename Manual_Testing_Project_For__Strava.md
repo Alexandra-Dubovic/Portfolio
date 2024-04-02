@@ -151,13 +151,17 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+<ul>
+<li> Test data is created based on the requirements identified in previous phases </li>
+<li> Test cases are prioritized based on the risk and business importance</li>
+<li> Testing environment is ready, all permissions and documentation is available and ready for use</li>
+</ul>
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: Strava App V333.10 Cycle summary
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bug reports have been created based on the failed tests. The complete bug reports can be found here: [Bug reports .pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14842423/Bug.reports.pdf)
 
 The following is a summary of the bugs that have been found
 **(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
