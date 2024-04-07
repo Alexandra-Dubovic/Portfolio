@@ -192,5 +192,5 @@ To summarize the project:
 <li> Skipped tests percentage: 0% of all tests are Skipped</li> 
 <li> Bugs found: 5</li>
 <li> Critical bugs found: 0 </li> 
-<LI> Recommended to make a regression test after fixing the bugs that have been found</LI>
+<LI> Recommended to make a regression test after fixing the bugs and to follow upLI>
 </ul>
