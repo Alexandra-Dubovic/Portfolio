@@ -30,7 +30,7 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Strava application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Strava V333.10 test plan.pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14550605/Strava.V333.10.test.plan.pdf)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Strava V333.10 test plan](https://github.com/Alexandra-Dubovic/Portfolio/files/14550605/Strava.V333.10.test.plan.pdf)
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
@@ -159,26 +159,38 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: Strava App V333.10 Cycle summary
+Test cases are executed on the created test Cycle summary: Strava App V333.10 Cycle summary:
 
-Bug reports have been created based on the failed tests. The complete bug reports can be found here: [Bug reports .pdf](https://github.com/Alexandra-Dubovic/Portfolio/files/14842423/Bug.reports.pdf)
+![Cycle summary](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/83bf9da0-427b-499b-a257-85151958e05f)
 
-The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+Bug reports have been created based on the failed tests. The complete bug reports can be found here: [Bug reports ](https://github.com/Alexandra-Dubovic/Portfolio/files/14842423/Bug.reports.pdf)
+
+The following is a summary of the bugs that have been found![Bugs priority](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/85ca7b3e-4dc4-47bd-b542-5b6372c1515f)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
-1.7 Test Completion
+<h3>1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: ![Traceability matrix](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/39fafcbe-1cc3-4670-9931-3e245bab744f)
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![Execution report](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/609130ba-9e3b-4a1c-b205-f09e3b5ca80e)
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The final report shows that a number of 3 tests have failed of a total of 10 test
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of 5 total bugs were found, from which the priority is: 2 are high and 3 are medium.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+To summarize the project:
+<ul>
+<li> All the functionalities in scope were covered by tests</li>
+<li> Number of test cases planned: 10 </li>
+<li> Number of test cases executed:10</li>
+<li> Pass percentage: 70% of all tests are Passed</li> 
+<li> Fail percentage: 30% of all tests are Failed</li>  
+<li> Skipped tests percentage: 0% of all tests are Skipped</li> 
+<li> Bugs found: 5</li>
+<li> Critical bugs found: 0 </li> 
+<LI> Recommended to make a regression test after fixing the bugs that have been found</LI>
+</ul>
