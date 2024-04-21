@@ -1,12 +1,12 @@
-<h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>API Testing Project for **Strava V333.10 web application**</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **Strava V333.10 web application**
 
-Tools used: Postman, Newman
+Tools used: Postman
 
-Collection link: **Inserati aici linkul catre colectia de API**
+Collection link: <a>**(https://api.postman.com/collections/32284484-5ff072a5-68bf-4e8f-b557-cd8d72e3685d?access_key=PMAT-01HW0R5H29060TFWBV2QAK4E80)**</a>
 
 <h2>Tests performed</h2>
 
