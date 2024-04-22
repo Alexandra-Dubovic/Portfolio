@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "5ff072a5-68bf-4e8f-b557-cd8d72e3685d",
+		"name": "Strava",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32284484"
+	},
+	"item": [
+		{
+			"name": "Get token activity:write scope",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "703839cd1adbce943651137b00986aaa6cbc81f6",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.strava.com/oauth/token?client_id=119962&client_secret=1bb2a0136396c07f77df175ae9da3d8bae6b4f87&code=2283f76ebf9e04783f40d52b279af3123a47a738&grant_type=authorization_code",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "client_secret",
+							"value": "1bb2a0136396c07f77df175ae9da3d8bae6b4f87"
+						},
+						{
+							"key": "code",
+							"value": "2283f76ebf9e04783f40d52b279af3123a47a738"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get token profile:write scope",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.strava.com/oauth/token?client_id=119962&client_secret=1bb2a0136396c07f77df175ae9da3d8bae6b4f87&code=d4c6c0ff836bfd96c1b9653c355548341b9bfa2a&grant_type=authorization_code",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "client_secret",
+							"value": "1bb2a0136396c07f77df175ae9da3d8bae6b4f87"
+						},
+						{
+							"key": "code",
+							"value": "d4c6c0ff836bfd96c1b9653c355548341b9bfa2a"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get token for read scope",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.strava.com/oauth/token?client_id=119962&client_secret=1bb2a0136396c07f77df175ae9da3d8bae6b4f87&code=afddd0954eb1736666515719412bc3048aa2d305&grant_type=authorization_code",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "client_secret",
+							"value": "1bb2a0136396c07f77df175ae9da3d8bae6b4f87"
+						},
+						{
+							"key": "code",
+							"value": "afddd0954eb1736666515719412bc3048aa2d305"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get code for authentification profile:write scope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.strava.com/oauth/authorize?client_id=119962&response_type=code&redirect_uri=http://localhost&exchange_token&approval_prompt=force&scope=profile:write",
+					"protocol": "http",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost"
+						},
+						{
+							"key": "exchange_token",
+							"value": null
+						},
+						{
+							"key": "approval_prompt",
+							"value": "force"
+						},
+						{
+							"key": "scope",
+							"value": "profile:write"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get code for authentification write scope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.strava.com/oauth/authorize?client_id=119962&response_type=code&redirect_uri=http://localhost&exchange_token&approval_prompt=force&scope=activity:write",
+					"protocol": "http",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost"
+						},
+						{
+							"key": "exchange_token",
+							"value": null
+						},
+						{
+							"key": "approval_prompt",
+							"value": "force"
+						},
+						{
+							"key": "scope",
+							"value": "activity:write"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get code for authentification read scope",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.strava.com/oauth/authorize?client_id=119962&response_type=code&redirect_uri=http://localhost&exchange_token&approval_prompt=force&scope=activity:read",
+					"protocol": "http",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "119962"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost"
+						},
+						{
+							"key": "exchange_token",
+							"value": null
+						},
+						{
+							"key": "approval_prompt",
+							"value": "force"
+						},
+						{
+							"key": "scope",
+							"value": "activity:read"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get athlete information",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verify that Athlete country is Spain\"),function(){\r",
+							"    pm.response.json().country.to.be==(\"Spain\");\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token read scope}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.strava.com/api/v3/athlete",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"athlete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get athlete activities",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"\r",
+							"pm.test(\"Verify that for all activitie location is Spain\"), function(){\r",
+							"pm.expect(Location_is_Spain).to.be.true; \r",
+							"\r",
+							"Location_is_Spain=true;\r",
+							"for(var i = 0; i<=pm.response.json()[0].length;i++)\r",
+							"{\r",
+							"if(pm.response.json()[0][i][\"location_country\"]!=\"Spain\"){\r",
+							"    Location_is_Spain=false;\r",
+							"    break\r",
+							"}\r",
+							"}\r",
+							"}\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token read scope}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.strava.com/api/v3/athlete/activities?access_token=703839cd1adbce943651137b00986aaa6cbc81f6",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"athlete",
+						"activities"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "703839cd1adbce943651137b00986aaa6cbc81f6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new activity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verify that response code is 200OK\"), function(){pm.response.to.have.status(200);}\r",
+							"\r",
+							"\r",
+							"\r",
+							"pm.test(\"Verify that response is obtained in less than 200 ms\", function(){\r",
+							"pm.expect(pm.response.responseTime).to.be.lessThan(200);\r",
+							"})\r",
+							"pm.test(\"Body contains string sport type\",() => {\r",
+							"  pm.expect(pm.response.text()).to.include(\"sport_type\");\r",
+							"})\r",
+							"\r",
+							"const jsonData = pm.response.json();\r",
+							"pm.test(\"Test data type of the response\", () => {\r",
+							"  pm.expect(jsonData.name).to.be.a(\"string\");\r",
+							"  pm.expect(jsonData.distance).to.be.a(\"number\");\r",
+							"  pm.expect(jsonData.location_city).to.be.null;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Value is in valid list\", () => {\r",
+							"  pm.expect(pm.response.json().type)\r",
+							"    .to.be.oneOf([\"Run\", \"Alpine ski\", \"Hike\"]);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Person is from Spain\", () => {\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.location_country).to.eql(\"Spain\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token write activity scope}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Nice ride\",\r\n    \"type\" : \"Race\",\r\n    \"sport_type\" : \"Ride\",\r\n    \"start_date_local\" : \"2020-03-20T10:02:13Z\",\r\n    \"elapsed_time\" : \"18373\",\r\n    \"description\" : \"test\",\r\n    \"distance\" : \"200\",\r\n    \"trainer\" : \"1\",\r\n    \"communte\" : \"1\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.strava.com/api/v3/activities",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update athlete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verify that response code is 200OK\"), function(){pm.response.to.have.status(200);}\r",
+							"\r",
+							"\r",
+							"\r",
+							"pm.test(\"Verify that response is obtained in less than 200 ms\", function(){\r",
+							"pm.expect(pm.response.responseTime).to.be.lessThan(200);\r",
+							"})\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token write profile scope}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"weight\": 51}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.strava.com/api/v3/athlete?",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"athlete"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
