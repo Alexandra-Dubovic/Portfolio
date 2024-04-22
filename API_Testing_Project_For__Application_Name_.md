@@ -21,10 +21,10 @@ Now setup is ready to perform the tests.
 <h2>Tests performed</h2>
 
 <ol>
-<li>**Request 1: Get token activity:write scope**</li>
+<li>Request 1: Get athlete information</li>
 
-HTTP method for request: **POST**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
+HTTP method for request: **GET**<br>
+Request description: **Returns the currently authenticated athlete. Tokens with profile:read_all scope will receive a detailed athlete representation; all others will receive a summary representation**<br>
 Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
 Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
 
