@@ -1,4 +1,4 @@
-<h1>API Testing Project for **Strava V333.10 web application**</h1>
+<h1>API Testing Project for Strava V333.10 web application</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
@@ -7,6 +7,16 @@ Application under test: **Strava V333.10 web application**
 Tools used: Postman
 
 Collection link: <a>****</a>
+
+In order to perform tests we have to obtain authentification token. Strava API allows create, update and read existing information. For each scope it is necessary to obtain a separate authentification token. Following steps from Strava API documentation available at <a> https://developers.strava.com/docs/getting-started/</a> following HTTP requests were created:
+
+![Strava API tokens requests](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/f6920479-5b13-4693-8c3a-d568fef04f81) 
+
+To ensure the efficiency of testing process all obtained token were parameterized:
+
+![Starva tokens parameterized](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/d6209450-fabf-4c6a-bdd9-cae94818c746)
+
+Now setup is ready to perform the tests.
 
 <h2>Tests performed</h2>
 
