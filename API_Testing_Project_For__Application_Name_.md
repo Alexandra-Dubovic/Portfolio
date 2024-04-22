@@ -6,14 +6,14 @@ Application under test: **Strava V333.10 web application**
 
 Tools used: Postman
 
-Collection link: <a>**(https://api.postman.com/collections/32284484-5ff072a5-68bf-4e8f-b557-cd8d72e3685d?access_key=PMAT-01HW0R5H29060TFWBV2QAK4E80)**</a>
+Collection link: <a>****</a>
 
 <h2>Tests performed</h2>
 
 <ol>
-<li>**Nume Request 1**</li>
+<li>**Request 1: Get token activity:write scope**</li>
 
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
+HTTP method for request: **POST**<br>
 Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
 Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
 Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
