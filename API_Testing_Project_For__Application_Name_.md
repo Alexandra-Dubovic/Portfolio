@@ -6,7 +6,7 @@ Application under test: **Strava V333.10 web application**
 
 Tools used: Postman
 
-Collection link: <a>****</a>
+Collection [link](https://github.com/Alexandra-Dubovic/Portfolio/blob/main/Strava.postman_collection.json)
 
 In order to perform tests we have to obtain authentification token. Strava API allows create, update and read existing information. For each scope it is necessary to obtain a separate authentification token. Following steps from Strava API documentation available at <a> https://developers.strava.com/docs/getting-started/</a> following HTTP requests were created:
 
