@@ -25,12 +25,12 @@ Now setup is ready to perform the tests.
 
 HTTP method for request: **GET**<br>
 Request description: **Returns the currently authenticated athlete. Tokens with profile:read_all scope will receive a detailed athlete representation; all others will receive a summary representation**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+Test types / techniques used: **Functional testing, positive testing**<br>
+Response status code: **200**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+![Postman Get Athlete information](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/ebc80ef0-3aca-41aa-813d-7c98281a06f9)
 
 JavaScript Tests:
 
