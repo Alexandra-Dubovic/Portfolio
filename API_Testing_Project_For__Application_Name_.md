@@ -123,7 +123,7 @@ To summarize the project:
 <li> Skipped tests percentage: 0% of all tests are Skipped</li> 
 <li> Bugs found: 2</li>
 <li> Critical bugs found: 0 </li> 
-<LI> Recommended to check if there is a possibility to improve response time for requestdLI>
+<li> Recommended to check if there is a possibility to improve response time for requestd</li>
 </ul>
 
 
