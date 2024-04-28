@@ -34,40 +34,38 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![JS Test Postman Get Athlete Information](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/5d7186e2-1535-4383-9853-dc5c7eca720f)
 
+<li>**Request 2*: Get athlete activities*</li>
 
-<li>**Nume Request 2**</li>
-
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
-
-.............
-
-<li>**Nume Request n**</li>
-
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **GET**<br>
+Request description: **Returns the given activity that is owned by the authenticated athlete. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities**<br>
+Test types / techniques used: **Functional testing, positive testing**<br>
+Response status code: **200**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+![Postman Get Athlete Activities](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/8a90d757-dad8-4ddb-8f62-ae06a425107e)
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+![JS Test Postman Get Athlete Activities](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/7d36dc11-4bea-48fa-bf41-3cf79b51b6fe)
+
+
+<li>**Request 3: Create new activity*</li>
+
+HTTP method for request: **POST**<br>
+Request description: **Creates a manual activity for an athlete, requires activity:write scope**<br>
+Test types / techniques used: **Functional testing, positive testing, negative testing**<br>
+Response status code: **201**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![Postman Create new Activity](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/3b970484-f344-499a-91aa-c6bcb02108e2)
+
+JavaScript Tests:
+
+![JS Test Postman Create new activity](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/c84384f1-5622-46ac-8fb0-8059211871f2)
 
 </ol>
 
