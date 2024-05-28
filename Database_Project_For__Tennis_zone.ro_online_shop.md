@@ -55,25 +55,48 @@ The tables are connected in the following way:
 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
-**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+![delete queries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/00d4037b-7c68-45c3-9b9b-baa5b326222c)
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
-**Inserati aici toate instructiunile de SELECT pe care le-ati scris folosind filtrarile necesare astfel incat sa extrageti doar datele de care aveti nevoie**
-**Incercati sa acoperiti urmatoarele:**<br>
+1. SELECT clause with filters:
+   
 **- where**<br>
 **- AND**<br>
 **- OR**<br>
 **- NOT**<br>
 **- like**<br>
-**- inner join**<br>
-**- left join**<br>
-**- OPTIONAL: right join**<br>
-**- OPTIONAL: cross join**<br>
-**- functii agregate**<br>
-**- group by**<br>
-**- having**<br>
-**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
+
+![Select + and or not like](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/23914ffe-3aa1-49ad-b826-7d46ddb77ce2)
+
+
+
+
+2. SELECT clause with aggregate functions:
+
+![SElect + aggregate](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/7319151b-33a9-4ff0-b808-8104c19b3e5a)
+
+
+
+3. SELECT clause with JOIN
+   
+**- INNER JOIN**<br>
+**- LEFT JOIN**<br>
+**- RIGHT JOIN**<br>
+
+![Select + join](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/3b1e5ef0-2d92-49e5-b93e-f82ca95e8bc4)
+
+4. SELECT clause with:
+   
+**- GROUP BY**<br>
+**- HAVING**<br>
+
+![SElect+ group by+ having](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/37899d86-e9f7-4d5e-b073-672f7dc61b77)
+
+5. Subqueries
+
+![Subqueries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/0854c272-ad01-4e15-bf20-d38c8b6d1a92)
+
 
 </ol>
 
