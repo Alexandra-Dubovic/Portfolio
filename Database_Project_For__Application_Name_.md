@@ -1,17 +1,19 @@
-<h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Database Project for Tennis-zone.ro online shop </h1>
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: Tennis-zone.ro
 
 Tools used: MySQL Workbench
 
-Database description: **Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
+Database description: The scope of created database is to gather information about available products and placed orders for online shop dedicated to tennis lovers. Database consist of 7 tables providing main informtaion about products in their quantity and quality aspect. 
 
 <ol>
 <li>Database Schema </li>
 <br>
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
+
+
 
 The tables are connected in the following way:
 
