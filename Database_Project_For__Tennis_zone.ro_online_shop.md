@@ -44,12 +44,11 @@ The tables are connected in the following way:
   In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase. 
 
   Below you can find all the insert instructions that were created in the scope of this project:
-
-  **Inserati aici toate instructiunile de INSERT pe care le-ati scris. Incercati sa folositi atat insert pe toate coloanele (fara sa precizati pe ce coloane se face insert) cat si insert pe cateva coloane (care necesita mentionarea explicita a coloanelor pe care se face insert). De asemenea, incercati sa acoperiti situatia in care inserati mai multe randuri in acelasi timp**
+  ![insert queries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/1c601db2-8d98-403a-9969-f1420ba185ae)
 
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 
-  **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
+  ![Update queries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/8a79a3f7-6c63-497d-8dfe-96af7f4c5648)
 
 
   <li>DQL (Data Query Language)</li>
