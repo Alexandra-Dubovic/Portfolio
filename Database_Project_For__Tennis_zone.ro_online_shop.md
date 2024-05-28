@@ -11,18 +11,18 @@ Database description: The scope of created database is to gather information abo
 <ol>
 <li>Database Schema </li>
 <br>
-You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
 
+You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them
+
+![Database scheme](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/7ce93dde-b61d-4c9a-8c7f-185b6d59cb17)
 
 
 The tables are connected in the following way:
 
 <ul>
-  <li> **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  ...........
-  <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
+  <li> Table Brands  is connected with tables: Rackets, Shoes, Orders, New_Arrivals through a one-to-many relationship which was implemented through Brands.Brand_ID as a primary key and Rackets.Brand_ID, Shoes.Brand_ID, Orders.Brand_ID and New_Arrivals.Brand_ID as a foreign key in each mentioned table</li>
+  <li> Table Products  is connected with tables: Orders, Clothing, and New_Arrivals through a one-to-many relationship which was implemented through Products.Category_ID as a primary key and Orders.Product_type, Clothing.Product_ID and New_Arrivals.Product_category as a foreign key in each mentioned table</li>
+
 </ul><br>
 
 <li>Database Queries</li><br>
@@ -32,19 +32,12 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  **Inserati aici toate instructiunile de CREATE pe care le-ati scris, atat create database cat si create table**
+![Create queries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/badda059-be9e-42fe-b72c-b28f603da1c1)
 
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
+![Alter queries](https://github.com/Alexandra-Dubovic/Portfolio/assets/155356578/2dd577b1-4031-42a3-8528-c34a335b6973)
 
-  **Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
- **- schimbare nume tabela**
- **- adaugare sau stergere coloana**
- **- redenumire coloana**
- **- adaugare proprietati coloana (ex: adaugare auto-increment)**
- **- modificare proprietati coloana (ex: modificare tip de data, modificare pozitie coloana etc)**
- **- adaugare cheie primara sau secundara (daca nu a fost deja adaugata la crearea tabelei)**
  
-  
   <li>DML (Data Manipulation Language)</li>
 
   In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. 
