@@ -102,6 +102,42 @@ In order to simulate various scenarios that might happen in real life I created 
 
 <li>Conclusions</li>
 
-**Inserati aici o concluzie cu privire la ceea ce ati lucrat, gen lucrurile pe care le-ati invatat, lessons learned, un rezumat asupra a ceea ce ati facut si orice alta informatie care vi se pare relevanta pentru o concluzie finala asupra a ceea ce ati lucrat**
+The main scope of the project was to test the integrity and functionality of the created database. Simulating different types of queries with negative and positive values the accuracy of operations was tested.
+
+The focus of the project was:
+
+- Database integrity: to make sure that individual components such as tables, rows has their own unique identifier
+
+- Database referential integrity: to make sure that foreign keys are used properly and are creating an interdependent coherent flow
+
+- Data integrity: to ensure that each column and row has correct data type which is compatible and allow to perform some real-life queries
+
+- Consistency: to make sure that elements of database are named correctly and are suggestive for the database. The primary and foreign keys also are named consistently.
+
+ 
+
+To ensure all testing objectives were reached Functional positive and negative testing was done:
+
+ 
+
+- Test a SELECT query to retrieve specific columns from a single table.
+
+- Test a JOIN query to retrieve data from multiple related tables.
+
+- Test a subquery to retrieve data based on a nested condition.
+
+- Test a GROUP BY query to retrieve aggregated data.
+
+- Test a query with ORDER BY to sort results in ascending and descending order
+
+ 
+
+Data validation was done through:
+
+- Testing the valid inputs into specific columns/rows
+
+- Testing the invalid inputs with incorrect data type, incorrect lengths or violating existing constraints
+  
+
 
 </ol>
