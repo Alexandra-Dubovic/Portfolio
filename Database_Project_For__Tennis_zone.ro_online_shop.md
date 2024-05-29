@@ -2,7 +2,7 @@
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: Tennis-zone.ro
+Application under test: Database created for Tennis-zone.ro
 
 Tools used: MySQL Workbench
 
